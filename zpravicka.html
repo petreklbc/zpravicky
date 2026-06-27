@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>zpravicka</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<centre>
+<body bgcolor="#f4b54e" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+<picture class="responzivni-obrazek-obal">
+  <!-- Obrázek pro počítače (od šířky obrazovky 768px a víc) -->
+  <source media="(min-width: 768px)" srcset="Bilder/zpravicka.png">
+  
+  <!-- Výchozí obrázek pro mobily -->
+  <img src="Bilder/zpravicka.png" alt="Popisek obrázku">
+</picture>
+
+<style>
+  /* Styl pro kontejner obrázku */
+  .responzivni-obrazek-obal {
+    display: block;
+    margin-left: auto;   /* Vycentrování zleva */
+    margin-right: auto;  /* Vycentrování zprava */
+    width: 100%;         /* Na mobilu zabere celou šířku */
+    
+    /* Zde nastavte maximální velikost pro PC (1445px nebo 1175px) */
+    max-width: 1445px;   
+  }
+
+  /* Styl pro samotný obrázek uvnitř */
+  .responzivni-obrazek-obal img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>
